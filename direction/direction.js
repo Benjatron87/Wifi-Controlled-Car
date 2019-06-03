@@ -1,4 +1,4 @@
 
 module.exports = {
-    direction: "2"
+    "direction": "0"
 }
