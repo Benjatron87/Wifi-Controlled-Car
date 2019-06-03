@@ -1,0 +1,24 @@
+{
+  "name": "wifi-controlled-car",
+  "version": "1.0.0",
+  "description": "Linking NodeMCU to full stack web app to control car's motion. Mostly because I am bored today.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Benjatron87/Wifi-Controlled-Car.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Benjatron87/Wifi-Controlled-Car/issues"
+  },
+  "homepage": "https://github.com/Benjatron87/Wifi-Controlled-Car#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "path": "^0.12.7"
+  }
+}

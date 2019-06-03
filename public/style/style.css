@@ -1,0 +1,28 @@
+.row{
+    padding: 1%;
+    text-align: center;
+}
+
+.button{
+    cursor: pointer;
+    border: 1px solid blue;
+    border-radius: 5px;
+    background: navy;
+    color: white;
+    padding: 1% 0% 1% 0%;
+}
+
+.forward{
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+.backward{
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.button:hover{
+    background: rgb(0, 0, 46);
+    color: rgb(158, 158, 158);
+}
