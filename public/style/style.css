@@ -1,3 +1,13 @@
+body{
+    background: black;
+}
+
+.header{
+    background: navy;
+    text-align: center;
+    color: white;
+}
+
 .row{
     padding: 1%;
     text-align: center;
@@ -9,7 +19,22 @@
     border-radius: 5px;
     background: navy;
     color: white;
-    padding: 1% 0% 1% 0%;
+    padding: 8% 0% 8% 0%;
+}
+
+.stop{
+    background: rgb(128, 0, 0);
+    border: 1px solid rgb(255, 0, 0);
+}
+
+.left{
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.right{
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
 }
 
 .forward{
