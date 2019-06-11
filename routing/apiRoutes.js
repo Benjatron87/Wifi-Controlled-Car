@@ -6,7 +6,10 @@ module.exports = function(app) {
         console.log(req.body);
 
         direction = req.body;  
-        
+    })
+
+    app.get("/direction", (req, res) => {
+
         res.json(direction);
     })
 };
