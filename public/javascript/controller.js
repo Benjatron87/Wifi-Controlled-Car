@@ -11,5 +11,5 @@ $(".button").click(function(){
 
     setTimeout(function(){
         $.post("/direction", obj);
-    }, 2000);
+    }, 500);
 })
