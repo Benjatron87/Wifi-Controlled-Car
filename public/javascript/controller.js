@@ -9,5 +9,7 @@ $(".button").click(function(){
 
     console.log(val);
 
-    $.post("/direction", obj);
+    setTimeout(function(){
+        $.post("/direction", obj);
+    }, 2000);
 })
